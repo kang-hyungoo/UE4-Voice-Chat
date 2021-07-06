@@ -3,21 +3,23 @@ UE4 Voice Chat
 
 [Project File]/Config/DefaultEngine.ini
 
+<pre>
+<code>
 [OnlineSubsystem]
-
 bHasVoiceEnabled=true
-
 [Voice]
-
 bEnabled=true
-
+</code>
+</pre>
 
 [Project File]/Config/DefaultGame.ini
 
-
+<pre>
+<code>
 [/Script/Engine.GameSession]
-
 bRequiresPushToTalk=true
+</code>
+</pre>
 
 <pre>
 <code>
