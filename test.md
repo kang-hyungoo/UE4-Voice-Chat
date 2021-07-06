@@ -173,7 +173,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AMyCharacter::VoiceCaptureTick()
 {
-	if (!VoiceCapture.IsValid())
+	if (!VoiceCapture.IsValid())	//VoiceCapture가 Vaild하지 않으면 return;
 		return;
 
 	uint32 VoiceCaptureBytesAvailable = 0;
@@ -229,8 +229,6 @@ void AMyCharacter::PlayVoiceCapture()
 	VoiceCaptureAudioComponent->Play();
 
 }
-
-
 
 </code>
 </pre>
