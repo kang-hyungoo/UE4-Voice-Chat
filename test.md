@@ -236,3 +236,6 @@ void AMyCharacter::PlayVoiceCapture()
 이 기능을 추가하여 사용 시에는 Session의 접속이 필요합니다.
 
 AWS GameLift의 Game Session과 Player Session의 접속과는 별도로 Unreal Engine에서 제공하는 Session을 Create한 후에 Find와 Join을 하여 접속할 필요가 있습니다.
+
+
+FVoiceModule::Get().CreateVoiceCapture(); << 빌드 시에 인자가 부족하다는 오류 C2660이 발생하는 중입니다.
