@@ -2,6 +2,15 @@ UE4 Voice Chat
 =============
 
 구문 추가
+[Project File]/Source/[Project File Name]/[Project File Name].Build.cs
+
+<pre>
+<code>
+PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "OnlineSubsystem", "OnlineSubsystemUtils", "Voice"});
+
+</code>
+</pre>
+
 [Project File]/Config/DefaultEngine.ini
 
 <pre>
